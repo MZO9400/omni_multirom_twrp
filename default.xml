@@ -22,6 +22,9 @@
   <remote  name="nkk71"
            fetch="https://github.com/nkk71" />
 
+  <remote  name="tasssadar"
+           fetch="https://github.com/Tasssadar" />
+
   <default revision="refs/tags/android-6.0.1_r74"
            remote="aosp"
            sync-c="true"

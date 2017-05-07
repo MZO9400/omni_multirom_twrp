@@ -22,6 +22,9 @@
   <remote  name="nkk71"
            fetch="https://github.com/nkk71" />
 
+  <remote  name="mrom"
+           fetch="https://github.com/multirom-dev" />
+
   <remote  name="tasssadar"
            fetch="https://github.com/Tasssadar" />
 
@@ -38,7 +41,7 @@
   <!-- project path="abi/cpp" name="platform/abi/cpp" groups="pdk" /> -->
   <!-- project path="art" name="android_art" remote="omnirom" revision="android-6.0" groups="pdk" /> -->
   <project path="bionic" name="android_bionic" remote="omnirom" revision="android-6.0" groups="pdk" />
-  <project path="bootable/recovery" name="Team-Win-Recovery-Project" remote="nkk71" revision="android-7.1-mrom" groups="pdk-cw-fs"/>
+  <project path="bootable/recovery" name="Team-Win-Recovery-Project" remote="mrom" revision="android-7.1-mrom" groups="pdk-cw-fs"/>
   <!-- project path="cts" name="platform/cts" groups="cts,pdk-cw-fs" /> -->
   <!-- project path="dalvik" name="android_dalvik" remote="omnirom" revision="android-6.0" groups="pdk-cw-fs" /> -->
   <!-- project path="developers/build" name="platform/developers/build" /> -->
@@ -472,7 +475,7 @@
   <!-- project path="system/bt" name="platform/system/bt" groups="pdk" /> -->
   <project path="system/core" name="android_system_core" remote="omnirom" revision="android-6.0" groups="pdk" />
   <project path="system/extras" name="android_system_extras" remote="omnirom" revision="android-6.0" groups="pdk" />
-  <project path="system/extras/multirom" name="multirom" remote="nkk71" revision="master" />
+  <project path="system/extras/multirom" name="multirom" remote="mrom" revision="master" />
   <project path="system/extras/libbootimg" name="libbootimg" remote="tasssadar" revision="master" />
   <!-- project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" /> -->
   <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" />
